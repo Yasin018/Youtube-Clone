@@ -48,6 +48,12 @@
     row-gap: 40px;
 }
 
+@media (max-width: 500px) {
+    .video-grid {
+        display: flex;
+        flex-direction: column;
+}
+
 @media (max-width: 750px) {
     .video-grid {
         grid-template-columns: 1fr 1fr;
@@ -77,4 +83,39 @@
     position: absolute;
     bottom: 10px;
     right: 4px;
+}
+
+.youtube-logo {
+    height: 10px;
+}
+
+.left-section {
+    width: 100px;
+}
+
+.hamburger-menu {
+    margin: 12px;
+}
+
+.middle-section {
+    margin: 0;
+    width: 40%;
+}
+
+.searchbar {
+    height: 25px;
+    font-size: 10px;
+    width: 100px;
+}
+
+.search-button, .voice-search-button {
+    height: 30px;
+    width: 30px;
+}
+
+.right-section {
+    margin: 0;
+    justify-content: center;
+    gap: 6px;
+}
 }
